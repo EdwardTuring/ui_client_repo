@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div id="div_title">
+			<h1 id="title">UICreator 插件中心</h1>
+		</div>
+		<div id="div_plugin">
+			<div class="div_pluginitem">
+				<div class="div_plugin_img"><img src="res/plugin.png" class="plugin_img"></img></div>
+				<div class="div_plugin_detail">
+					<p>FTP 模块 v0.1</p>
+				</div>
+				<div class="div_plugin_btn">
+					<input type="button" class="btn_plugin" id='btn_plugin_ftp' value="下载">
+				</div>
+			</div>
+			<div class="div_pluginitem">
+				<div class="div_plugin_img"><img src="res/plugin.png" class="plugin_img"></img></div>
+				<div class="div_plugin_detail">
+					<p>本地文件操作模块</p>
+				</div>
+				<div class="div_plugin_btn">
+					<input type="button" class="btn_plugin" value="下载" id='btn_plugin_file'>
+				</div>
+			</div>
+			
+			
+			<div id="div_state">
+				<input type="submit" class="button" value="关于" id="btn_about" onclick="windowx.showAboutDialog('maxiao')">
+				<input type="submit" class="button" value="确定" id="btn_sure" onclick="confirm(ftp.pluginName())">
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery.js"></script>	
+<script type="text/javascript" src="js/jquery.blockUI.js"></script>	
+<script type="text/javascript" src="js/main.js"></script>	
